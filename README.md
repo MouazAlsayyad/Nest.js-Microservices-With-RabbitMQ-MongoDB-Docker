@@ -29,12 +29,16 @@
 ## Installation
 
 ```bash
+$ docker-compose --build -V
 $ npm install
 ```
 
 ## Running the app
 
 ```bash
+# run Docker Container
+$ docker-compose up
+
 # development
 $ npm run start
 
